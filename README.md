@@ -1,4 +1,4 @@
-# 🚀 LinuxSquad DDoS Tool
+# 🚀 LinuxSquad DDoS TOOLS
 
 <p align="center">
   <img src="https://img.shields.io/badge/Version-1.0-red?style=for-the-badge">
