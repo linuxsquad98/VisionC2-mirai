@@ -9,8 +9,8 @@
 ---
 
 # ⚠️ UYARI
-> ⚠️ **DDoS aracı gerçek botnet kullanmaktadır. Lütfen sadece test amaçlı kullanın!**  
-> ⚠️ Yapılan işlemlerden **biz sorumlu değiliz.**
+>  **DDoS aracı gerçek botnet kullanmaktadır. Lütfen sadece test amaçlı kullanın!**  
+>  Yapılan işlemlerden **biz sorumlu değiliz.**
 
 ---
 
