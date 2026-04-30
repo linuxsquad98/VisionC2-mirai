@@ -20,16 +20,16 @@
 
 ## 🛠️ Kurulum
 
-Termux Aşağıdaki komutları sırasıyla çalıştırın:
+Termuxda Aşağıdaki komutları sırasıyla çalıştırın:
 
-```bash
-pkg update && pkg upgrade -y
+'pkg update && pkg upgrade -y'
 
-pkg install python git -y
+'pkg install python git -y'
 
-pip install aiohttp
-git clone https://github.com/liuxsquad/linuxsquad-ddos.git
+'pip install aiohttp'
 
-cd linuxsquad-ddos
+'git clone https://github.com/liuxsquad/linuxsquad-ddos.git'
 
-python ripper.py 
+'cd linuxsquad-ddos'
+
+'python ripper.py' 
