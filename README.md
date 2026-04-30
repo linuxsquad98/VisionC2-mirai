@@ -2,7 +2,7 @@
 
 
 
-# 🚀 LinuxSquad DDoS
+# 🚀 LinuxSquad DDoS V2
 
 <p align="center">
   <img src="https://img.shields.io/badge/Version-2.0-red?style=for-the-badge">
