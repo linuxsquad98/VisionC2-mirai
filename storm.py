@@ -1,13 +1,15 @@
 #!/data/data/com.termux/files/usr/bin/python
 import socket,random,time,os,sys,threading,struct
 
+os.system("clear")
 print("\033[91m    ___                                             __")
 print("   / (_)___  __  ___  ___________ ___  ______ _____ / /")
 print("  / / / __ \\/ / / / |/_/ ___/ __ \\ / / / / __ \\/ __  /")
 print(" / / / / / / /_/ />  <(__  ) /_/ / /_/ / /_/ / /_/ /")
 print("/_/_/_/ /_/\\__,_/_/|_/____/\\__, /\\__,_/\\__,_/\\__,_/")
 print("                           /_/\033[0m")
-print("\n\033[94m[+] I have permission and am authorized to perform this pentest\033[0m\n")
+print("\033[93mdeveloper:@linuxsquad\033[0m")
+print("\n\033[92mpython storm.py <HEDEF> <PORT> [SURE] [THREAD]\033[0m\n")
 
 if len(sys.argv)<3:
     print("python storm.py <HEDEF> <PORT> [SURE] [THREAD]");sys.exit(1)
